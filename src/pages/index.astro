@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+import '../styles/styles.css';
+
+var a = 5;
+---
+
+<Layout title='Welcome to Astro.'>
+  <main>
+    <h1 class='text-center text-8xl text-purple-400'>Hola mundo</h1>
+    <p class='text-center'>El valor de a es: {a}</p>
+  </main>
+</Layout>
+
+<script>
+  const a = 5;
+</script>
